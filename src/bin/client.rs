@@ -12,7 +12,7 @@ enum Command {
         resp: Responder<Option<Bytes>>,
     },
     Set {
-        Key: String,
+        key: String,
         value: Bytes,
         resp: Responder<()>,
     }
